@@ -44,9 +44,14 @@
   }
 
   &__icon {
+    width: 6.400vw;
     margin-top: 5px;
     font-size: 2.6rem;
     color: $color-text-2;
+
+    @include mq-up(md) {
+      width: 1.250vw;
+    }
   }
 }
 
