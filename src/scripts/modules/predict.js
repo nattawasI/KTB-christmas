@@ -29,8 +29,6 @@ const randomPredict = () => {
       orcodeType = 'qrWork'
       TextButtonPredict = 'เติมบุญด้านการงาน คลิกเลย'
   }
-  console.log(predictTextItemElm)
-  console.log(TextButtonPredict)
 
   predictBoxItemElm.setAttribute('data-qr-target', orcodeType)
   predictBoxTitleElm.innerHTML = objectResult.title
