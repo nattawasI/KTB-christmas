@@ -22,15 +22,21 @@ section.sec-predict(id='secPredict')
         a.predict-button__button(href='#' id='buttonOpenModalQrcode')
           i.predict-button__button-icon
             img(src='/assets/image/sns/icon_qrcode.svg' alt='')
-          .predict-button__button-text เติมบุญด้านการงาน คลิกเลย
+          .predict-button__button-text(id='btnTextQR') เติมบุญด้านการงาน คลิกเลย
       ul.predict-sns
         li.predict-sns__item
           a.predict-sns__link(href='#' id='btnLineShare' target='_blank')
             img(src='/assets/image/sns/icon_line.svg' alt='' title='Share')
         li.predict-sns__item
-          a.predict-sns__link(href='#' id='bthFacebookShare' target='_blank')
+          a.predict-sns__link(href='#' id='bthFacebookShare')
             img(src='/assets/image/sns/icon_facebook.svg' alt='')
         li.predict-sns__item
-          a.predict-sns__link.btn-copy-clipboard(href='#' title='https://krungthaihny2021.com/')
+          a.predict-sns__link(href='#' id='bthTwitterShare')
+            img(src='/assets/image/sns/icon_twitter.svg?v=2' alt='')
+        li.predict-sns__item
+          button.predict-sns__link.btn-copy-clipboard( title='https://krungthaihny2021.com/' data-clipboard-target="#inputClipboard")
             img(src='/assets/image/sns/icon_clipboard.svg' alt='https://krungthaihny2021.com/')
             span.btn-copy-clipboard__tooltip Copied
+          //- a.predict-sns__link.btn-copy-clipboard(href='#' title='https://krungthaihny2021.com/' data-clipboard-target="#inputClipboard")
+          //-   img(src='/assets/image/sns/icon_clipboard.svg' alt='https://krungthaihny2021.com/')
+          //-   span.btn-copy-clipboard__tooltip Copied

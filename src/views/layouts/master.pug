@@ -20,6 +20,12 @@ html(lang='en')
     meta(property="og:url", content=(meta && meta.ogUrl ? meta.ogUrl : ''))
     meta(property="og:image", content=(meta && meta.ogImage ? meta.ogImage : ''))
 
+    meta(name="twitter:card", content=(meta && meta.twitterCard ? meta.twitterCard : 'summary_large_image'))
+    meta(name='twitter:site', content=(meta && meta.twitterSite ? meta.twitterSite : '@Krungthai Bank - Merry Christmas &amp; Happy New Year 2021'))
+    meta(name="twitter:title", content=(meta && meta.twitterTitle ? meta.twitterTitle : 'Krungthai Bank - Merry Christmas &amp; Happy New Year 2021'))
+    meta(name="twitter:description", content=(meta && meta.twitterDescription ? meta.twitterDescription : 'Krungthai Bank - Merry Christmas &amp; Happy New Year 2021'))
+    meta(name="twitter:image", content=(meta && meta.twitterImage ? meta.twitterImage : 'https://krungthaihny2021.com/assets/image/share/Share_image.jpg'))
+
      //- CSS
     block css
       link(rel="stylesheet", href='/assets/css/style.css')
@@ -50,8 +56,8 @@ html(lang='en')
         }
       script(async defer crossorigin="anonymous" src='https://connect.facebook.net/en_US/sdk.js')
 
-      //- script(type='text/javascript').
-      //-   LineIt.loadButton();
+      
+      script(type='text/javascript' src='https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js')
 
       script(type='text/javascript' src='/assets/js/main.bundle.js')
 

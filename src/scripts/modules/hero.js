@@ -1,8 +1,8 @@
 const fullHeight = () => {
   const limitHeight = 667
   const classFreemode = 'is-freemode'
-  const heroElm = document.getElementById('hero')
   const windowHeight = window.innerHeight
+  const heroElm = document.getElementById('hero')
 
   if (windowHeight >= limitHeight) {
     heroElm.classList.remove(classFreemode)
