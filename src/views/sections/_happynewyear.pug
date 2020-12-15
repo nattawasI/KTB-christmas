@@ -7,6 +7,8 @@ section.sec-happynewyear(id='secHappyNewYear')
     .sec-happynewyear__title สวัสดีปีใหม่ 2564
     .sec-happynewyear__text ขอให้ทุกคนจงมีเเต่ความสุข สดใส สุขภาพเเข็งเเรง สมหวังในทุกสิ่ง เเละมั่งคั่ง มั่งมี ตลอดไป
     .sec-happynewyear__sns
+    .sec-happynewyear__text ติดต่อเรา
+    .sec-happynewyear__sns
       ul.happynewyear-sns
         li.happynewyear-sns__item
           a.happynewyear-sns__link(href='https://www.facebook.com/krungthaibank/' target='_blank' title='https://www.facebook.com/krungthaibank/')
@@ -15,7 +17,8 @@ section.sec-happynewyear(id='secHappyNewYear')
           a.happynewyear-sns__link(href='https://krungthai.com/' target='_blank' title='https://krungthai.com/')
             img(src='/assets/image/sns/icon_web.svg' alt='https://krungthai.com/')
         li.happynewyear-sns__item
-          a.happynewyear-sns__link.btn-copy-clipboard(href='#' title='https://krungthaihny2021.com/')
+          button.happynewyear-sns__link.btn-copy-clipboard( title='https://krungthaihny2021.com/' data-clipboard-target="#inputClipboard2")
             img(src='/assets/image/sns/icon_clipboard.svg' alt='https://krungthaihny2021.com/')
             span.btn-copy-clipboard__tooltip Copied
   input.input-copy-clipboard(type='text' id='inputClipboard' value='https://krungthaihny2021.com/')
+  input.input-copy-clipboard(type='text' id='inputClipboard2' value='https://krungthaihny2021.com/')
