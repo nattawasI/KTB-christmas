@@ -57,15 +57,34 @@
 
   &__icon {
     width: 6.400vw;
-    margin-top: 5px;
+    margin-top: 15px;
     font-size: 2.6rem;
     color: $color-text-2;
+    animation: bounce 1000ms infinite;
 
     @include mq-up(md) {
       width: 1.250vw;
     }
   }
 }
+
+@keyframes bounce {
+  0% {
+    animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+    transform: translate3d(0, 0, 0)
+  }
+
+  50% {
+    animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+    transform: translate3d(0, -10px, 0)
+  }
+
+  100% {
+    animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+    transform: translate3d(0, 0, 0)
+  }
+}
+
 
 /* hero
 --------------------------------------------- */
