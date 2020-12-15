@@ -7,11 +7,23 @@
   &__image {
     text-align: center;
 
+    &--sp {
+      @include mq-up(md) {
+        display: none;
+      }
+    }
+
+    &--pc {
+      @include mq-down(md) {
+        display: none;
+      }
+    }
+
     img {
       width: 310px;
 
       @include mq-up(md) {
-        width: 22vw;
+        width: 38.042vw;
       }
     }
   }
