@@ -38,6 +38,7 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-stylelint": "^13.0.0",
     "gulp-wait": "^0.0.2",
+    "mobile-detect": "^1.4.4",
     "rimraf": "^3.0.2",
     "stylelint": "^13.7.2",
     "uuidv4": "^6.2.6",

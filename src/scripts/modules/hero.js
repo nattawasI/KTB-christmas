@@ -1,5 +1,5 @@
 const fullHeight = () => {
-  const limitHeight = 667
+  const limitHeight = 810
   const classFreemode = 'is-freemode'
   const windowHeight = window.innerHeight
   const heroElm = document.getElementById('hero')

@@ -99,7 +99,6 @@
 
   @include mq-up(md) {
     background-image: url('/assets/image/hero/bg_hero.jpg');
-    background-size: cover;
   }
 
   &__light {
